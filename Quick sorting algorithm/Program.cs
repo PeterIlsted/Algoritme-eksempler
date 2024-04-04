@@ -76,16 +76,6 @@
             for (int i = 0; i < N; i++)
                 Console.Write(arr[i] + " ");
         }
-        static int RandomArr(int n)
-        {
-            Random rand = new Random();
-            int[] arr = new int[10];
-            Console.Write("arr: ");
-            for (int i = 0; i < arr.Length; i++)
-            {
-                arr[i] = rand.Next(1, 99);
-                n = arr[i];
-            }
-        }
+        
     }
 }
